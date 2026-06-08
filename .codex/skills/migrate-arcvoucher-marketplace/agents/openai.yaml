@@ -1,0 +1,4 @@
+interface:
+  display_name: "ArcVoucher Migration"
+  short_description: "Audit and migrate Arc Commerce to ArcVoucher"
+  default_prompt: "Use $migrate-arcvoucher-marketplace to plan and implement the ArcVoucher voucher marketplace migration in this repository."
