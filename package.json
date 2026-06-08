@@ -1,18 +1,14 @@
 {
   "private": true,
   "engines": {
-    "node": ">=22.0.0"
+    "node": "22.x"
   },
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build --webpack",
     "start": "next start",
-<<<<<<< HEAD
     "lint": "eslint .",
     "seed": "tsx scripts/seed-voucher-stock.ts"
-=======
-    "lint": "eslint ."
->>>>>>> e62ed1053df66eca2c9fcbd462c4b4e5a7624c66
   },
   "dependencies": {
     "@circle-fin/developer-controlled-wallets": "^10.0.1",
@@ -37,7 +33,7 @@
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
     "lucide-react": "^0.511.0",
-    "next": "latest",
+    "next": "15.3.1",
     "next-themes": "^0.4.6",
     "react": "^19.0.0",
     "react-day-picker": "^9.11.0",
@@ -59,10 +55,7 @@
     "postcss": "^8",
     "tailwindcss": "^4.1.13",
     "tailwindcss-animate": "^1.0.7",
-<<<<<<< HEAD
     "tsx": "^4.22.4",
-=======
->>>>>>> e62ed1053df66eca2c9fcbd462c4b4e5a7624c66
     "typescript": "^5"
   }
 }
